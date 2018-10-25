@@ -24,3 +24,20 @@
 .table1 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+a:link{
+    color:yellow;
+    font-style: oblique;
+}
+
+a:visited{
+    color:blue;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}

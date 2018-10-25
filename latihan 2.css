@@ -1,0 +1,30 @@
+.Warnabiru {
+    color: blue;
+}
+
+.Miring{
+    font-style: italic
+}
+
+body{
+    background-image: url("gbr2.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+}   
+a:link{
+    color:yellow;
+    font-style: oblique;
+}
+
+a:visited{
+    color:blue;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}

@@ -9,14 +9,29 @@
     
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <strong>Hello World!</strong>
-    <i>Hello World!</i>
-    <small>Hello World!</small>
-    <del>Hello World!</del>
-    <ins>Hello World!</ins>
-    <sub>Hello World!</sub>
-    <sup>Hello World!</sup>
+    <p id="ujicoba">test</p>
+    <button type="button"
+     onclick='document.getElementById("ujicoba").innerHTML="Ganti Tulisan"'>
+    Klikdisini</button>'
+
+    <button onclick="document.getElementById('lampu').src='pic_bulbon.gif'">
+    ON
+    </button>
+    <img id="lampu" src="pic_bulboff.gif" syle="width:100px">
+    <button onclick="document.getElementById('lampu').src='pic_bulboff.gif'">
+    OFF
+    </button>
+
+    <p id="Tulisan">Tulisan-tulisan</p>
+    <button onclick="Destroy()";>Hancurkan</button>
+    <button onclick="show()";>Munculkan</button>
+    <button onclick="Hitung()";>Hitung</button>
+    <button onclick="show_Tanggal()";>Tanggal</button>
+
+    <input type="text" id="mytext" name="mytext"><br>
+    <button onclick="input_show()">Ambil</button>
+    <p id="Tampilkan"></p>
+<script src=pelatihan3.js></script> 
 </body>
 <footer>
     <script src="main.js"></script>
